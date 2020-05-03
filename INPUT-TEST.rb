@@ -28,8 +28,8 @@ while !array.is_a?(Array)
     end
 end
 
-#input test for example Integer AND Float
-while !number.is_a?(Integer) && !number.is_a?(Float)
+#input test for example Integer OR Float
+while !number.is_a?(Integer) || !number.is_a?(Float)
     puts "this variable is not an integer or float"
     puts "replace with integer/float"
     number = gets.to_f
